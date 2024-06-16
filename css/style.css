@@ -1,0 +1,31 @@
+body{
+    background-color:#ffffff;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    min-height: 100vh;  
+}
+
+.Principal{
+    padding: 20px;
+   position: relative;
+    margin: 0px 10px;
+    border-radius:10px;
+    width: 40%;
+    background-color:#40BDDB;
+}
+.Principal input{
+    width:50%;
+    border-radius: 10px;
+    border: 1px solid white;   
+}
+.Principal i{
+    font-size: 25px;
+}
+.descriptcion{
+    float: right;
+    margin-top: -40px;
+}
+#weather-data #city-name{
+    text-align: center;
+}
